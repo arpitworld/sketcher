@@ -9,4 +9,4 @@ To use with a path element el:
 
     el.sketch(1000) //1000 is the number of milliseconds that you want the animation to last
 
-See live here: http://jsfiddle.net/arpitworld/4pXxk/
+See live here: http://jsfiddle.net/arpitworld/4pXxk/1/
