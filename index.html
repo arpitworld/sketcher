@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html>
+<head>
+  <script type="text/javascript" src="./raphael-min.js"></script>   
+  <script type="text/javascript" src="./sketcher.js"></script>   
+</head>
+<body>
+  <script>
+    var r = Raphael(0,0,'600','600');
+    var p1 = r.path([
+        ['M',20,20],
+        ['c',0,0,11,24,34,24],['c',23,0,33,-24,33,-24],
+        ['c',0,0,11,24,34,24],['c',23,0,33,-24,33,-24],
+        ['c',0,0,11,24,34,24],['c',23,0,33,-24,33,-24],
+        ['c',0,0,11,24,34,24],['c',23,0,33,-24,33,-24],
+        ['c',0,0,11,24,34,24],['c',23,0,33,-24,33,-24],
+    ]).attr({'stroke-width':7,'stroke':'green'}).sketch(2000);
+  </script>
+
+</body>
+
+</head>
