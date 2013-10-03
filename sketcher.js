@@ -21,4 +21,5 @@ Raphael.el.sketch = function(time,step){
     },counter*deltaT);
   }
   setTimeout(function(){newel.remove()}, Math.ceil(counter*deltaT));
+  return el
 }
